@@ -1,8 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-// Укажите свой PROJECT_ID
-// Массив пицц хранится тут https://gist.github.com/Archakov06/9b37cd4ee27458bf9e2d337ab0d41dd8
-const API_BASE_URL = 'https://PROJECT_ID.mokky.ru';
+const API_BASE_URL = "https://9303851354d5e8f0.mokky.dev";
 
 export const getPizzas = async (params) => {
   const response = await axios.get(`${API_BASE_URL}/pizzas`, {
